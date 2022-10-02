@@ -1,0 +1,821 @@
+@charset "utf-8";
+
+@media screen and (max-width:1364px) {
+    .wrap2 {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    header nav ul li {
+        padding: 0 30px 0 30px;
+    }
+
+    /* 네비 */
+    .top,
+    nav.ham {
+        right: 40px;
+    }
+
+    /* 어바웃 */
+    section.about img {
+        width: 300px;
+        height: 276px;
+    }
+
+    /* 스킬 */
+    section.skills ul {
+        width: 100%;
+    }
+
+    section.skills ul li {
+        font-size: 24px;
+    }
+
+    /* 포트폴리오 */
+    section.portfolio .back .wrap2 {
+        width: 96%;
+    }
+
+    section.portfolio .artwork_board {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    section.portfolio .artwork_board .artwork {
+        width: 63%;
+        bottom: 50%;
+        transform: translateY(50%);
+    }
+
+    /* 아덜스 */
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide {
+        height: 90%;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul {
+        width: 95%;
+        height: 100%;
+        padding: 60px 100px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .wrap2 {
+        width: 98%;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header h1 {
+        text-align: left;
+        padding: 38px 0 0 5px;
+        float: left;
+    }
+
+    header h1 a {
+        font-size: 24px;
+    }
+
+    header .contact {
+        top: 55px;
+    }
+
+    header .contact i {
+        font-size: 20px;
+        padding: 10px 5px 10px 10px;
+    }
+
+    header nav {
+        margin-top: 0;
+        text-align: right;
+    }
+
+    header nav ul li {
+        padding: 24px 5px 0;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 19px;
+        width: 80%;
+    }
+
+    header nav ul li:hover a {
+        background-color: transparent;
+        color: #333;
+    }
+
+    section h3 {
+        font-size: 30px;
+    }
+
+    /* 메인 */
+    .main_Visual {
+        background: url(../img/main_Visual_BG.png) no-repeat center 100px;
+        background-size: 86%;
+        height: 500px;
+    }
+
+    .main_Visual img {
+        width: 200px;
+        height: auto;
+        padding: 95px 0 30px 0;
+    }
+
+    .main_Visual>em {
+        font-size: 32px;
+    }
+
+    /* 탑버튼 */
+    .top {
+        height: 40px;
+        line-height: 35px;
+        font-size: 20px;
+        right: 40px;
+    }
+
+    section h3 {
+        font-size: 28px;
+        font-weight: 700;
+        padding-bottom: 45px;
+    }
+
+    /* 어바웃 */
+    section.about .school {
+        width: 50%;
+    }
+
+    section.about .license {
+        width: 45%;
+    }
+
+    /* 스킬 */
+    section.skills ul li {
+        font-size: 18px;
+        padding: 10px 26px
+    }
+
+    section.skills ul.design li {
+        margin-top: 45px;
+    }
+
+    /* 포트폴리오 */
+    section.portfolio ul.menu {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    section.portfolio ul.menu li {
+        margin-right: 4px;
+    }
+
+    section.portfolio ul.menu li:last-child {
+        margin-right: 0;
+    }
+
+    section.portfolio .artwork_board {
+        padding: 0px 10px;
+    }
+
+    section.portfolio .artwork_board .txt_box {
+        width: 35%;
+        height: 410px;
+        margin: 30px 0 0 10px;
+    }
+
+    section.portfolio .artwork_board .txt_box strong {
+        font-size: 4rem;
+    }
+
+    section.portfolio .artwork_board ul.info li {
+        font-size: 1.3rem;
+    }
+
+    section.portfolio .artwork_board ul.txt>li {
+        font-size: 1rem;
+        margin: 0 3px 0 0;
+    }
+
+    section.portfolio .artwork_board .click_box {
+        width: 35%;
+    }
+
+    section.portfolio .artwork_board .click_box a {
+        width: 46%;
+        font-size: 1rem;
+    }
+
+    section.portfolio .artwork_board .click_box a.margin {
+        margin-right: 5px;
+    }
+
+    section.portfolio .artwork_board .artwork img {
+        width: 100%;
+    }
+
+    /* 아덜스 */
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide {
+        width: 40%;
+        height: 85%;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>img {
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul {
+        padding: 50px 100px;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul>li {
+        font-size: 1rem;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul>a {
+        font-size: 1rem;
+    }
+
+    /* 디자인 */
+    section.design article {
+        padding: 0;
+        width: 100%;
+    }
+
+    section.design article div.txt_box {
+        width: 50%;
+        padding: 10px 5px 0 5px;
+        box-sizing: border-box;
+    }
+
+    section.design article div.img_box {
+        width: 50%;
+        margin: 0;
+        height: 328px;
+        overflow: hidden;
+    }
+
+    section.design article div.img_box img {
+        width: 100%;
+    }
+
+    /* 컨태트 */
+    footer h3 {
+        font-size: 30px;
+    }
+
+    /* 카피 */
+    .copy {
+        font-size: 12px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .wrap2 {
+        width: 96%;
+    }
+
+    .wrap {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    /* 헤더 */
+    header {
+        position: fixed;
+        z-index: 100;
+        height: 75px;
+    }
+
+    header h1 {
+        padding-top: 26px;
+    }
+
+    header h1 a {
+        font-size: 20px;
+    }
+
+    header .contact {
+        right: 50px;
+        top: 15px;
+    }
+
+    header nav>ul {
+        display: none;
+    }
+
+    /* 모바일 네비 버튼 */
+    header nav .mobile_btn {
+        display: block;
+        float: right;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    header nav .mobile_btn_close {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        z-index: 10;
+    }
+
+    /* 모바일 네비 */
+    .mobile_bg {
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    header nav .mobile_nav {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        position: fixed;
+    }
+
+    /* 햄버거  네비 없애기  */
+    nav.ham {
+        display: none;
+    }
+
+    nav.ham button.open {
+        display: none;
+    }
+
+    /* 메뉴 ul li */
+    header nav ul {
+        width: 80%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 70px 0 50px 0;
+    }
+
+    header nav ul li {
+        display: block;
+        width: 100%;
+        height: 62px;
+        line-height: 62px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #222;
+        padding: 0;
+        text-align: left;
+    }
+
+    header nav ul li a {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li:hover a {
+        background-color: #fff;
+        color: #222;
+    }
+
+    /* 메인 */
+    .main_Visual {
+        height: 400px;
+        padding-top: 75px;
+        background: url(../img/main_Visual_BG.png) no-repeat center 150px / contain;
+    }
+
+    .main_Visual img {
+        width: 130px;
+        height: auto;
+        padding: 95px 0 30px 0;
+    }
+
+    .main_Visual>em {
+        font-size: 26px;
+    }
+
+    .main_Visual>span {
+        font-size: .8rem;
+    }
+
+    /* 탑버튼 */
+    .top {
+        width: 80px;
+        height: 38px;
+        line-height: 33px;
+        font-size: 18px;
+        bottom: 100px;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    section h3 {
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 35px;
+    }
+
+    /* 어바웃 */
+    section.about {
+        padding: 50px 0;
+    }
+
+    section.about h4 {
+        font-size: 20px;
+    }
+
+    section.about .me em {
+        font-size: 16px;
+    }
+
+    section.about article p {
+        font-size: 16px;
+    }
+
+    section.about div.r_all img {
+        width: 200px;
+        height: 176px;
+    }
+
+    /* 스킬 */
+    section.skills {
+        padding: 50px 0;
+    }
+
+    section.skills ul li {
+        font-size: 16px;
+        padding: 5px 5px;
+        border: 0;
+        text-align: center;
+    }
+
+    section.skills ul li {
+        margin-top: 25px;
+    }
+
+    section.skills ul li p.per {
+        background-color: #f5f5f5;
+        padding: 5px 0;
+    }
+
+    /* 포트폴리오 */
+    section.portfolio {
+        padding: 50px 0;
+    }
+
+    section.portfolio ul.menu>li {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    section.portfolio ul.menu>li>a {
+        font-size: 0.9rem;
+    }
+
+    section.portfolio .back {
+        height: 500px;
+    }
+
+    section.portfolio .artwork_board {
+        height: 370px;
+        margin-top: 20px;
+    }
+
+    section.portfolio .artwork_board .txt_box {
+        width: 100%;
+        height: auto;
+        margin: 15px 0 0 5px;
+    }
+
+    section.portfolio .artwork_board .txt_box strong {
+        font-size: 2rem;
+        display: inline;
+    }
+
+    section.portfolio .artwork_board li:nth-child(3) strong {
+        padding-top: 10px;
+        font-size: 1.5rem;
+    }
+
+    section.portfolio .artwork_board .txt_box ul.info {
+        margin-top: 5px;
+        display: flex;
+        gap: .0 20px;
+    }
+
+    section.portfolio .artwork_board .txt_box ul.info li {
+        font-size: 12px;
+    }
+
+    section.portfolio .artwork_board ul.txt {
+        display: flex;
+        margin: 0;
+    }
+
+    section.portfolio .artwork_board ul.txt>li {
+        font-size: 12px;
+        margin: 0 5px 0 0;
+    }
+
+    section.portfolio .artwork_board .click_box {
+        display: none;
+    }
+
+    section.portfolio .artwork_board .artwork {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        right: 50%;
+        bottom: 43%;
+        transform: translate(50%, 58%);
+        cursor: pointer;
+    }
+
+    section.portfolio .artwork_board .txt_box ul.info li {
+        font-size: 12px;
+    }
+
+    section.portfolio .artwork_board .mobile_click_box {
+        width: 60%;
+        height: 74%;
+        left: 20%;
+        bottom: 0%;
+    }
+
+    section.portfolio .artwork_board .mobile_click_box>a {
+        display: inline-block;
+    }
+
+
+    /* 아덜스 */
+    section.others {
+        padding: 50px 0;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul {
+        padding: 45px 100px;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul>li {
+        font-size: 1rem;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul>a {
+        font-size: 1rem;
+    }
+
+    /* 디자인 */
+    section.design article div.txt_box {
+        display: none;
+    }
+
+    section.design article div.img_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .vid_modal .inner_vid {
+        width: 500px;
+        height: 500px;
+    }
+
+    .vid_modal i {
+        left: 38%;
+    }
+
+    .vid_modal iframe {
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-25%);
+    }
+
+    /* 컨택트 */
+    footer {
+        height: auto;
+    }
+
+    footer h3 {
+        font-size: 25px;
+        padding: 20px 0 25px 0;
+    }
+
+    footer p {
+        font-size: 18px;
+        line-height: 1.6;
+        padding-bottom: 15px;
+    }
+
+    /* 카피 */
+    .copy {
+        font-size: 8px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    /* 포트폴리오 그림 */
+    section.portfolio .artwork_board .artwork {
+        width: 58%;
+        height: auto;
+        position: absolute;
+        right: 50%;
+        bottom: 40%;
+        transform: translate(50%, 57%);
+        cursor: pointer;
+    }
+
+    /* 포트폴리오 모바일 기획서 보기 */
+    section.portfolio .artwork_board .mobile_click_box {
+        width: 90%;
+        height: 58%;
+        bottom: 10%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width:610px) {
+
+    /* 포트폴리오 그림 */
+    section.portfolio .artwork_board .artwork {
+        width: 65%;
+        height: auto;
+        position: absolute;
+        right: 50%;
+        bottom: 43%;
+        transform: translate(50%, 57%);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:510px) {
+
+    section h3 {
+        font-size: 20px;
+    }
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    /* 메인비주얼 */
+    .main_Visual>span {
+        font-size: .5rem;
+    }
+
+    /* 어바웃 */
+    section.about h4 {
+        font-size: 1.2rem;
+    }
+
+    section.about .me h4 span {
+        font-size: .8rem;
+    }
+
+    section.about .me em {
+        font-size: 18px;
+    }
+
+    section.about article p {
+        font-size: .8rem;
+    }
+
+    section.about div.r_all img {
+        display: none;
+    }
+
+    /* 포트폴리오 그림 */
+    section.portfolio .artwork_board .artwork {
+        width: 85%;
+        height: auto;
+        position: absolute;
+        right: 50%;
+        bottom: 40%;
+        transform: translate(50%, 57%);
+        cursor: pointer;
+    }
+
+    section.portfolio .artwork_board .mobile_click_box {
+        width: 90%;
+        height: 68%;
+        bottom: 1%;
+        left: 5%;
+    }
+
+    /* 포트폴리오 흰 바탕 텍스트 */
+    section.portfolio .artwork_board .txt_box ul.info,
+    section.portfolio .artwork_board ul.txt {
+        flex-wrap: wrap;
+    }
+
+    section.portfolio .artwork_board .txt_box ul.info li,
+    section.portfolio .artwork_board ul.txt>li {
+        font-size: .7rem;
+        line-height: 1.5;
+    }
+
+    /* 아덜스*/
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul {
+        padding: 35px 65px;
+        border-radius: 50px;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul>li {
+        font-size: .6rem;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul>a {
+        font-size: .6rem;
+        margin-top: 10px;
+        width: 105px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    /* 디자인 동영상 */
+    .vid_modal .inner_vid {
+        width: 200px;
+        height: 300px;
+        transform: translateY(20%);
+    }
+
+    .vid_modal i {
+        left: -15%;
+        font-size: 40px;
+    }
+
+    .vid_modal iframe {
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        left: 160%;
+    }
+}
+
+@media screen and (max-width:280px) {
+
+    /* 헤더 컨택트 */
+    header h1 a {
+        font-size: 16px;
+    }
+
+    header .contact {
+        right: 40px;
+        top: 20px;
+    }
+
+    header .contact i {
+        font-size: 20px;
+        padding: 2px 0 2px 2px;
+    }
+
+    /* 포트폴리오 메뉴 텍스트 */
+    section.portfolio ul.menu>li {
+        margin: 0 2px;
+    }
+
+    /* 아덜스 */
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul {
+        padding: 15px 40px;
+        border-radius: 50px;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul>li {
+        font-size: .3rem;
+    }
+
+    section.others .swiper>ul.swiper-wrapper>li.swiper-slide>ul>a {
+        font-size: .4rem;
+        margin-top: 5px;
+        width: 95px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    /* 디자인 동영상 */
+    .vid_modal .inner_vid {
+        width: 250px;
+        height: 200px;
+    }
+
+    .vid_modal i {
+        left: -45%;
+        font-size: 40px;
+    }
+
+    .vid_modal iframe {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        left: 135%;
+    }
+}

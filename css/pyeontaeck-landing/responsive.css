@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+
+@media screen and (max-width:1919px) {
+    .container{ width: 96%; margin: 0 auto;}
+
+    section.main_detail .box{ width: 1320px; margin: 0 auto;}
+    section.main_detail .coding{ width: 40%; margin: 0 20px;}
+    section.main_detail .design{ width: 40%;}
+
+    /* 서브 디테일 슬라이드 */
+    section.sub_detail .swiper{ width: 1320px; margin: 0 auto;}
+    section.sub_detail .coding{ width: 40%; margin: 0 20px;}
+    section.sub_detail .design{ width: 40%;} 
+}
+
+
+@media screen and (max-width:1343px) {
+    .container{ width: 96%; margin: 0 auto;}
+
+    /* 인트로2 */
+    section.intro2 .container div img{ width: 120px;}
+    section.intro2 .container div:nth-child(2) img{ width: 110px;}
+    section.intro2 .container div:nth-child(3) img{ width: 100px;}
+    section.intro2 .container div:nth-child(3){top: 275px;}
+    section.intro2 .container div p{ padding: 14px 5px 0 20px;}
+
+    /* 폰트 아이콘 */
+    section.font_icon .icon ul{ gap: 40px 80px;}
+
+    /* 메인 디테일 슬라이드 */
+    section.main_detail{ margin-top: 100px;}
+    section.main_detail .img_box p{ font-size: 18px; left: 50%; transform: translateX(-49%);}
+    section.main_detail .box{ display: block; width: 100%;} 
+    section.main_detail .img_box{ padding-bottom: 20px; text-align: center;}
+    section.main_detail .coding{ width: 40%; float: left; margin: 0 60px 0 60px;}
+    section.main_detail .design{ width: 40%; float: left; padding-bottom: 78px;}
+    section.main_detail .img_box .hoverimg{ left: 50%; transform: translateX(-49%); top: 2.3%;}
+
+    /* 서브 디테일 슬라이드 */
+    section.sub_detail .swiper { width: 100%; height: auto; padding-top: 100px;}
+    section.sub_detail .swiper li.swiper-slide{ display: block;}
+    section.sub_detail .swiper li.swiper-slide .img_box p{ left: 50%; transform: translateX(-49%);}
+    section.sub_detail .swiper li.swiper-slide .img_box{ text-align: center;}
+    section.sub_detail .swiper-slide .img_box .hoverimg{ left: 50%; transform: translateX(-49%);}
+
+    section.sub_detail .coding{ width: 40%; float: left; margin: 0 60px 0 60px;}
+    section.sub_detail .design{ width: 40%; float: left; padding-bottom: 78px;}
+}
+
+
+@media screen and (max-width:1024px) {
+    .container{ width: 94%; margin: 0 auto;}
+
+    h2{ font-size: 30px;}
+    /* 헤더 */
+    header ul li a{ font-size: 1.5rem;}
+    header img{ width: 75%; margin: 20px 0;}
+
+    /* 인트로 */
+    section.intro .container> p{ font-size: 22px;}
+    section.intro .container ul{ font-size: 18px;}
+    section.intro .container >div{ font-size: 18px;}
+    section.intro .container >a{ font-size: 18px; width: 150px; margin-top: 60px;}
+
+    /* 인트로2 */
+    section.intro2 .container div p{ font-size: 18px;  width: 344px;}
+
+    /* 키워드 */
+    section.keyword .box{ padding-top: 80px;}
+    section.keyword .box>div{ width: 220px; height: 220px;}
+    section.keyword .box>div>div{ width: 190px; height: 190px;}
+    section.keyword .box>div>div span{ padding-top: 75px;}
+
+    /* 컬러 */
+    section.color{ padding: 100px 0;}
+    section.color .box>div{ padding-top: 80px;}
+    section.color .box>div div{ width: 110px; height: 110px;}
+
+    /* 폰트 및 아이콘 */
+    section.font_icon .font h2{ padding-bottom: 80px;}
+    section.font_icon .font >div{ font-size: 18px;}
+    section.font_icon .font >div:nth-child(3){ padding-top: 40px;}
+    section.font_icon .font >div h3{ width: 160px; margin-right: 0;}
+
+    section.font_icon .icon{ width: 48%;}
+    section.font_icon .icon h2{ padding-bottom: 64px;}
+    section.font_icon .icon ul{ flex-wrap: wrap; gap: 20px 80px;}
+    section.font_icon .icon ul li{ font-size: 50px;}
+    section.font_icon .icon ul li img{ width: 100%}
+
+    /* 카피 */
+    .copy{ font-size: 16px; height: 40px; line-height: 40px;}
+}
+
+@media screen and (max-width:880px) {
+    header img{ width: 80%;}
+
+    section.intro .container> p{ margin-top: 10px;}
+    section.intro .container ul{ margin-top: 45px;}
+    section.intro .container >div{ margin-top: 42px;}
+
+    /* 이모지 */
+    section.intro2{ padding: 80px 0 0 0;}
+    section.intro2 .container div img{ width: 120px;}
+    section.intro2 .container div:nth-child(3) img{ width: 90px;}
+
+    /* 키워드 */
+    section.keyword .box>div{ width: 200px; height: 200px;}
+    section.keyword .box>div>div{ width: 170px; height: 170px;}
+    section.keyword .box>div>div span{ padding-top: 68px; font-size: 26px;}
+    /* 폰트 및 아이콘 */
+    section.font_icon .icon{ width: 45%;}
+    section.font_icon .icon ul{ gap: 10px 50px;}
+    /* 메인 디테일 슬라이드 */
+    section.main_detail .container p{ margin: 0 0 10px 100px;}
+}
+
+
+@media screen and (max-width:768px) {
+    /* top */
+    .top{ width: 90px; height: 40px; background-color: rgba(34, 34, 34,0.47); line-height: 35px; font-size: 20px; bottom: 60px;}
+
+    h2{ font-size: 26px;}
+    /* 인트로1 */
+    section.intro .container> p{ font-size: 18px;}
+    section.intro .container ul{ font-size: 16px;}
+    section.intro .container >div{ font-size: 16px; margin-top: 52px;}
+    section.intro .container >a{ font-size: 16px; width: 150px; margin-top: 66px;}
+
+    /* 인트로2 */
+    section.intro2{ height: 600px;}
+    section.intro2 h2 span{ font-size: 50px; }
+    section.intro2 .container div p{ font-size: 16px;  width: 290px; height: 72px; padding: 10px; box-sizing: border-box;}
+    section.intro2 .container div img{ width: 100px;}
+    section.intro2 .container div:nth-child(3) img{ width: 80px;}
+    section.intro2 .container div:nth-child(3){ top: 240px;}
+    section.intro2 .container div:nth-child(4){ top: 390px; transform: translateX(-50%);}
+
+    /* 키워드 */
+    section.keyword .box{ padding-top: 40px;}
+    section.keyword .box>div{ width: 120px; height: 120px;}
+    section.keyword .box>div>div{ width: 100px; height: 100px;  margin: 10px auto;}
+    section.keyword .box>div>div span{ padding-top: 38px; font-size: 20px;}
+    section.keyword .box>div:nth-child(3)>div span{ padding-top: 40px; font-size: 16px;}
+    section.keyword .box>div>p{ padding-top: 16px; font-size: 16px;}
+
+    /* 컬러 */
+    section.color{ padding: 80px 0;}
+    section.color .box>div{ padding-top: 40px;}
+    section.color .box>div div{ width: 70px; height: 70px;}
+    section.color .box>div p{ font-size: 16px;}
+
+    /* 폰트 및 아이콘 */
+    section.font_icon .font { width: 50%;}
+    section.font_icon .font h2{ padding-bottom: 50px;}
+    section.font_icon .font >div{ font-size: 15px;}
+    section.font_icon .font >div h3{ margin-right: 10px;}
+
+    section.font_icon .icon h2{ padding-bottom: 34px;}
+    section.font_icon .icon ul{ gap: 10px 45px; font-size: 35px;}
+    section.font_icon .icon ul li{ font-size: 2.5rem;}
+
+    /* 메인 디테일 슬라이드 */
+    section.main_detail{ margin-top: 80px;}
+    section.main_detail h2{ padding-top: 40px; margin-bottom: 30px; font-size: 26px;}
+    section.main_detail .img_box p{ font-size: 18px; top: -26px;}
+    section.main_detail .box{ display: block; width: 100%;} 
+    section.main_detail .img_box{ width: 75%; margin: 0 auto;}
+    section.main_detail .img_box img{ width: 100%;}
+    section.main_detail .img_box .hoverimg{ display: none;}
+
+    section.main_detail h3{ font-size: 20px; margin-bottom: 15px;}
+    section.main_detail .coding{ width: 50%; padding: 0 20px; box-sizing: border-box; margin: 0;}
+    section.main_detail .coding ol li{ font-size: 1rem;} 
+    section.main_detail .design{ width: 50%; padding: 0 20px; box-sizing: border-box;  padding-bottom: 58px;}
+    section.main_detail .design p{ font-size: 1rem;}
+
+    /* 서브 디테일 슬라이드 */
+    section.sub_detail h2{ padding-top: 80px;}
+    section.sub_detail .swiper{ width: 100%; height: auto; padding-top: 80px;}
+    section.sub_detail .swiper li.swiper-slide{ display: block;}
+    section.sub_detail .swiper li.swiper-slide .img_box p{ left: 50%; transform: translateX(-49%); font-size: 1rem;}
+    section.sub_detail .swiper li.swiper-slide .img_box span{ font-size: 1.2rem;}
+    section.sub_detail .swiper li.swiper-slide .img_box{ margin: 0 auto; width: 75%;}
+    section.sub_detail .swiper li.swiper-slide .img_box img{  width: 100%;}
+    section.sub_detail .swiper-slide .img_box .hoverimg{ display: none;}
+
+    section.sub_detail h3{ font-size: 20px; margin-top: 20px;}
+    section.sub_detail .coding{ width: 50%; padding: 0 20px; box-sizing: border-box; margin: 0;}
+    section.sub_detail .coding ol li{ font-size: 1rem;} 
+    section.sub_detail .design{  width: 50%; padding: 0 20px 58px 20px; box-sizing: border-box;}
+    section.sub_detail .design p{ font-size: 1rem;}
+
+    /* 카피 */
+    .copy{ font-size: 8px; height: 30px; line-height: 30px;}
+}
+
+@media screen and (max-width:414px) {
+    /* top */
+    .top{ right: 20px; bottom: 60px; height: 35px; line-height: 31px; font-size: 16px;}
+
+    h2{ font-size: 24px;}
+
+    section.intro .container >a{ height: 40px; line-height: 40px; width: 130px;}
+    /* 인트로2 */
+    section.intro2{ height: 580px; padding-top: 80px;}
+    section.intro2 h2{ font-size: 1rem; text-align: center;}
+    section.intro2 h2 span{ font-size: 30px;}
+    section.intro2 .container div p{ font-size: 14px; width: 220px; height: 90px;}
+    section.intro2 .container div img{ width: 75px;}
+    section.intro2 .container div:nth-child(2) img{ width: 73px;}
+    section.intro2 .container div:nth-child(3) img{ width: 65px;}
+    section.intro2 .container div:nth-child(2){ right: 0; top: 90px;}
+    section.intro2 .container div:nth-child(3){ left: 10px; top: 234px;}
+    section.intro2 .container div:nth-child(4){ left: 0; top: 380px; transform: translateX(0);}
+
+    /* 키워드 */
+    section.keyword .box{ padding-top: 40px;}
+    section.keyword .box>div{ width: 80px; height: 80px;}
+    section.keyword .box>div>div{ width: 70px; height: 70px;  margin: 4px auto;}
+    section.keyword .box>div>div span{ padding-top: 26px; font-size: 16px;}
+    section.keyword .box>div>p{ padding-top: 14px; font-size: 14px;}
+    section.keyword .box>div:nth-child(3)>div span{ padding-top: 20px;}
+
+    /* 컬러 */
+    section.color{ padding: 80px 0;}
+    section.color .box>div{ padding-top: 40px;}
+    section.color .box>div div{ width: 55px; height: 55px;}
+    section.color .box>div p{ font-size: 14px;}
+
+    /* 폰트 및 아이콘 */
+    section.font_icon{ display: block;}
+    section.font_icon .font { width: 100%;}
+    section.font_icon .font h2{ padding-bottom: 40px;}
+    section.font_icon .font >div:nth-child(3){ padding-top: 20px;}
+    section.font_icon .font >div:nth-child(4){ padding-top: 20px;}
+    section.font_icon .font >div h3{ margin-right: 10px;}
+
+    section.font_icon .icon{ margin-top: 80px; width: 100%;}
+    section.font_icon .icon h2{ padding-bottom: 40px;}
+    section.font_icon .icon ul{ gap: 0 45px;}
+
+    /* 메인 디테일 슬라이드 */
+    section.main_detail h2{ margin: 40px 0 15px; font-size: 24px;}
+    section.main_detail .img_box p{ font-size: 0.8rem;}
+    section.main_detail .box{ display: block; width: 100%;} 
+    section.main_detail .img_box{ width: 75%; margin: 0 auto;}
+    section.sub_detail .swiper li.swiper-slide .img_box p{position: absolute; left: 20px; top: -26px; font-size: 20px;}
+    section.main_detail .img_box img{ width: 100%;}
+    section.main_detail .img_box .hoverimg{ display: none;}
+
+    section.main_detail h3{ font-size: 16px;}
+    section.main_detail .coding{ width: 50%; padding: 0 10px;}
+    section.main_detail .coding ol li{ font-size: 0.8rem;} 
+    section.main_detail .design p{ font-size: 0.8rem;}
+
+     /* 서브 디테일 슬라이드 */
+     section.sub_detail .btn i{ font-size: 30px; cursor: pointer; padding: 25px 20px;}
+     section.sub_detail h2{ font-size: 24px;}
+     section.sub_detail .swiper li.swiper-slide .img_box p{ left: 50%; transform: translateX(-49%); top: -36px; font-size: 0.8rem; line-height: 1.2;}
+     section.sub_detail .swiper li.swiper-slide .img_box p span{ font-size: 1rem;}
+     section.sub_detail .swiper li.swiper-slide .img_box{ margin: 0 auto; width: 75%;}
+     section.sub_detail .swiper li.swiper-slide .img_box img{  width: 100%;}
+     section.sub_detail .swiper-slide .img_box .hoverimg{ display: none;}
+ 
+     section.sub_detail h3{ font-size: 16px;}
+     section.sub_detail .coding{ padding: 0 10px;}
+     section.sub_detail .coding ol li{ font-size: 0.8rem;} 
+     section.sub_detail .design{ padding: 0 10px;}
+     section.sub_detail .design p{ font-size: 0.8rem;}
+}
